@@ -1,0 +1,34 @@
+version: '2'
+services:
+  node00:
+    image: dogwynn/networking_labs:02
+    command: /usr/bin/supervisord
+    environment:
+      PYTHONUNBUFFERED: 'true'
+    volumes:
+    - .:/lab
+    networks:
+    - net00
+    hostname: node00
+  node01:
+    image: dogwynn/networking_labs:02
+    command: /usr/bin/supervisord
+    environment:
+      PYTHONUNBUFFERED: 'true'
+    volumes:
+    - .:/lab
+    networks:
+    - net00
+    hostname: node01
+  node02:
+    image: dogwynn/networking_labs:02
+    command: /usr/bin/supervisord
+    environment:
+      PYTHONUNBUFFERED: 'true'
+    volumes:
+    - .:/lab
+    networks:
+    - net00
+    hostname: node02
+networks:
+  net00:

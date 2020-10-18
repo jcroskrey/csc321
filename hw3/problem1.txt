@@ -1,0 +1,44 @@
+node00 before, during, and after (respectively):
+
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 127.0.0.11:39301        0.0.0.0:*               LISTEN      -                   
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      8/sshd              
+tcp6       0      0 :::22                   :::*                    LISTEN      8/sshd 
+
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 127.0.0.11:39301        0.0.0.0:*               LISTEN      -                   
+tcp        0      0 0.0.0.0:5555            0.0.0.0:*               LISTEN      28/python3          
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      8/sshd              
+tcp        0      0 172.18.0.2:5555         172.18.0.3:33852        ESTABLISHED 28/python3          
+tcp6       0      0 :::22                   :::*                    LISTEN      8/sshd     
+
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 127.0.0.11:39301        0.0.0.0:*               LISTEN      -                   
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      8/sshd              
+tcp6       0      0 :::22                   :::*                    LISTEN      8/sshd  
+
+node01 before, during, and after (respectively):
+
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 127.0.0.11:38549        0.0.0.0:*               LISTEN      -                   
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      8/sshd              
+tcp6       0      0 :::22                   :::*                    LISTEN      8/sshd 
+
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 127.0.0.11:38549        0.0.0.0:*               LISTEN      -                   
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      8/sshd              
+tcp        0      0 172.18.0.3:33854        172.18.0.2:5555         ESTABLISHED 29/python3          
+tcp6       0      0 :::22                   :::*                    LISTEN      8/sshd 
+
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 127.0.0.11:38549        0.0.0.0:*               LISTEN      -                   
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      8/sshd              
+tcp6       0      0 :::22                   :::*                    LISTEN      8/sshd    
+
+
